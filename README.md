@@ -2,12 +2,6 @@
 
 A Python GUI to simulate MIR ray paths in ATR geometries (rectangle/trapezoid). It computes intersections, refraction/reflection with TIR checks, and shows per-hit incident/critical angles and coordinates.
 
-## Install (Windows PowerShell)
-py -3 -m venv venv
-& .\venv\Scripts\pip install -r .\atr_simulator\requirements.txt
-
-## Run
-& .\venv\Scripts\python .\atr_simulator\main.py
 
 ## Use
 - Choose Rectangle or Trapezoid; for trapezoid set Base, Top, and constrain by Height or Angle.
